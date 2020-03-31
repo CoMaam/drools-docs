@@ -1,3 +1,10 @@
 :toc: left
+:toc-title: 目次
+:toclevels: 1
+:sectnums:
 
-= Drools Documentation =
+= Drools攻略ガイド =
+
+== デシジョンテーブルで dialect "mvel" を指定する ==
+RuleSetエリアの *Functions* または *Queries* または *Declare* の指定部分に *dialect "mvel"* と書くと設定できます。 +
+RuleSetエリアで設定できる Functions, Queries, Declare は他のキーワードと異なり、記入された内容がそのままDRLに変換されます。これを利用することで、通常設定できない属性を設定することができます。
